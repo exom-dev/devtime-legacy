@@ -1,5 +1,9 @@
  # About <a href="https://docs.microsoft.com/en-us/dotnet/framework/whats-new/#v45"><img align="right" src="https://img.shields.io/badge/.Net%20Framework-4.8-5C2D91?logo=.net" alt=".Net Framework 4.8" /></a><a href="https://www.sqlite.org/"><img align="right" src="https://img.shields.io/badge/SQLite-3-003B57?logo=sqlite" alt="SQLite 3" /></a>
 
+> :warning: This is the legacy version of devtime. It still works perfectly, but won't get new features. For that, check out the [new devtime](https://github.com/exom-dev/devtime) implementation.
+> The new version is cross-platform and built on top of .Net 10, but it carries extra bloat due to that reason.
+> If you only plan to use devtime on Windows and don't need new features, you can stick to this legacy one, which is a little bit leaner and more efficient.
+
 devtime is an application that helps you track how much time you spend working on your projects. It uses SQLite to store the logs for each day.
 
 devtime favors UX over UI and tries not to get in the way of the user while still offering a lot of control. It was created by developers, for developers.
@@ -184,9 +188,9 @@ You will need an SQLite3 DLL present in the same folder as the `.sln` file. It w
 
 devtime was officially tested with SQLite `3.37.2`. Any other SQLite3 version should work fine, but they aren't guaranteed to.
 
-# License <a href="https://github.com/exom-dev/devtime/blob/master/LICENSE"><img align="right" src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" /></a>
+# License <a href="https://github.com/exom-dev/devtime-legacy/blob/master/LICENSE"><img align="right" src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" /></a>
 
-devtime was created by [The Exom Developers](https://github.com/exom-dev). It is licensed under the [MIT](https://github.com/exom-dev/devtime/blob/master/LICENSE) license.
+devtime was created by [The Exom Developers](https://github.com/exom-dev). It is licensed under the [MIT](https://github.com/exom-dev/devtime-legacy/blob/master/LICENSE) license.
 
 ## Dependencies and assets
 
