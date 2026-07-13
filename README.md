@@ -4,9 +4,9 @@
 >
 > For that, check out the [new devtime](https://github.com/exom-dev/devtime) implementation.
 >
-> The new version is cross-platform and built on top of .Net 10, but unfortuantely it carries extra bloat due to that reason.
+> The new version is cross-platform and built on top of .Net 10, but it carries extra bloat due to that reason.
 >
-> If you only plan to use devtime on Windows and don't need new features, you can stick to this legacy one which is a little bit leaner and more efficient.
+> If you only plan to use devtime on Windows and don't need new features, you can stick to this legacy version which is a little bit leaner and more efficient.
 
 devtime is an application that helps you track how much time you spend working on your projects. It uses SQLite to store the logs for each day.
 
